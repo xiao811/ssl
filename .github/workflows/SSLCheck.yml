@@ -34,7 +34,7 @@ jobs:
         npm run build
         cd CheckSSL
         chmod +x checker.sh
-        ./checker.sh mcxiaolan.top www.mcxiaolan.top blog.mcxiaolan.top dns.mcxiaolan.top ssl.mcxiaolan.top officedrive.herokuapp.com
+        ./checker.sh mcxiaolan.top www.mcxiaolan.top blog.mcxiaolan.top dns.mcxiaolan.top ssl.mcxiaolan.top myssl.pages.dev officedrive.herokuapp.com
         cp -rf ./output/ct.json ../public/ct.json
         echo "ssl.mcxiaolan.top" > ../public/CNAME
         
