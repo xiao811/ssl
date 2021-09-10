@@ -4,6 +4,14 @@
 
 # 开始
 
+## GithubAction
+
+1.Fork此项目，修改`/.github/workflows/SSLCheck.yml`，第36行改成自己的域名，多个域名以空格分开
+
+2.添加变量`TOKEN`为GithubToken，权限至少要拥有写入Repo
+
+3.保存，该项目会在UTC每天早上5点更新SSL信息
+
 ## Travis-CI
 
 1. Fork 本项目，修改 `.travis.yml` 第12行，在 `  - ./checker.sh ` 后面跟上需要检测的网址,多个网址请用空格隔开.
@@ -20,13 +28,5 @@
 7. 进入Github项目，勾开GithubPage服务
 8. 进入Trvis-ci，设置Cron Jobs为每日部署
 
-## GithubAction
-
-1.Fork此项目，修改`/.github/workflows/SSLCheck.yml`，第36行改成自己的域名，多个域名以空格分开
-
-2.添加变量`TOKEN`为GithubToken
-
-3.保存，该项目会在UTC每天早上5点更新SSL信息
-
-## Demo：https://ssl.cyfan.top
+## Demo：https://ssl.mcxiaolan.top
 ## 原作者项目：[SukkaLab/ssl](https://github.com/SukkaLab/ssl)
