@@ -34,7 +34,7 @@ jobs:
         npm run build
         cd CheckSSL
         chmod +x checker.sh
-        ./checker.sh 589000.xyz www.589000.xyz blog.589000.xyz dns.589000.xyz ssl.589000.xyz myssl.pages.dev
+        ./checker.sh 589000.xyz www.589000.xyz blog.589000.xyz forum.589000.xyz dns.589000.xyz ssl.589000.xyz myssl.pages.dev
         cp -rf ./output/ct.json ../public/ct.json
         echo "ssl.589000.xyz" > ../public/CNAME
         
