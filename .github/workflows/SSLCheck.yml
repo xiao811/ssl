@@ -34,7 +34,7 @@ jobs:
         npm run build
         cd CheckSSL
         chmod +x checker.sh
-        ./checker.sh 589000.xyz www.589000.xyz blog.589000.xyz pan.589000.xyz file.589000.xyz forum.589000.xyz ssl.589000.xyz dns.589000.xyz xiaolan.eu.org 1919810.eu.org myssl.pages.dev xiaolan.vercel.app
+        ./checker.sh 589000.xyz www.589000.xyz blog.589000.xyz pan.589000.xyz files.589000.xyz forum.589000.xyz ssl.589000.xyz demo.fblog.ml dns.589000.xyz xiaolan.eu.org 1919810.eu.org myssl.pages.dev xiaolan.vercel.app
         cp -rf ./output/ct.json ../public/ct.json
         echo "ssl.589000.xyz" > ../public/CNAME
         
