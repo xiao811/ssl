@@ -36,7 +36,7 @@ jobs:
         chmod +x checker.sh
         ./checker.sh www.ltya.top blog.ltya.top files.ltya.top forum.ltya.top ssl.ltya.top dns.ltya.top xiaolan.eu.org easytools.cf blogthemes.cf myssl.pages.dev xiaolan.vercel.app
         cp -rf ./output/ct.json ../public/ct.json
-        echo "ssl.ltya.top" > ../public/CNAME
+        echo "xiaossl.xiao811.eu.org" > ../public/CNAME
         
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
